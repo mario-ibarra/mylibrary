@@ -16,10 +16,10 @@
     border: 1px solid var(--clr-btn-border);
     border-radius: .5rem;
     font-size: .5rem 1rem;
-    font-size: .8rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: .2rem .5rem;
+    padding: .2rem .7rem;
     cursor: pointer;
     
 }
