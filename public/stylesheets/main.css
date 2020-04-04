@@ -1,0 +1,35 @@
+@import 'shared/variables.css';
+@import 'shared/fonts.css';
+@import 'shared/buttons.css';
+@import 'shared/header.css';
+
+
+:root {
+    font-family: 'Work Sans', sans-serif;
+    font-style: 20px;
+    color: var(--clr-text-light);
+ 
+ }
+
+body {
+   
+    background: linear-gradient(to right, var(--clr-back-dark), var(--clr-back-light) );
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.inner-container {
+    margin: 0 2rem;
+    
+}

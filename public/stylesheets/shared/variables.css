@@ -1,0 +1,18 @@
+*, *::before, ::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+:root {
+   --clr-base-hue: 200;
+   --clr-danger-hue-offset: 180;
+   --clr-danger-hue: calc(var(--clr-base-hue) - var(--clr-danger-hue-offset));
+   --clr-back-dark: hsl(var(--clr-base-hue), 100%, 8%); 
+   --clr-back-light: hsl(var(--clr-base-hue), 100%, 16%); 
+   --clr-text-light: hsl(var(--clr-base-hue), 100%, 87%); 
+   --clr-white: #fff;
+ 
+}

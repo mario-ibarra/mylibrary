@@ -1,0 +1,48 @@
+:root {
+    --nav-title-font-size: 2rem;
+    --nav-title-font-weight: 900;
+    --nav-link-font-weight: 400;
+}
+
+
+header {
+    padding: 1rem;
+}
+
+
+.header-title {
+    color: var(--clr-text-light);
+    text-decoration: none;
+    font-size: var(--nav-title-font-size);
+    font-weight: var(--nav-title-font-weight);
+    letter-spacing: 2px;
+    margin-left: 2rem;
+}
+
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+
+.header-nav ul a {
+    text-decoration: none;
+    color: var(--color-text-light);
+    font-weight: var(--nav-link-font-weight);
+    padding: 1rem;
+    
+}
+
+.header-nav ul li a:hover, .header-title:hover {
+    color: var(--clr-white);
+}
+
