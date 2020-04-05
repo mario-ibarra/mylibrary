@@ -3,6 +3,8 @@
 @import 'shared/buttons.css';
 @import 'shared/header.css';
 @import 'shared/form.css';
+@import 'shared/author.css';
+@import 'shared/books.css';
 
 
 :root {
@@ -33,4 +35,13 @@ a {
 .inner-container {
     margin: 0 2rem;
     
+}
+
+.page-header {
+    font-style: 2rem;
+    font-weight: 700;
+}
+
+.error-message {
+    color: hsl(var(--clr-danger-hue), 100%, 50%);
 }
